@@ -39,7 +39,7 @@ You can try the calculator live [here](https://your-live-demo-link.com).
 
 ## Screenshot
 
-![Calculator Screenshot](image.png)
+<img src="image.png" alt="Calculator Screenshot" width="500">
 
 ## Technologies Used
 
