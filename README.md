@@ -13,7 +13,7 @@ A simple and responsive web-based calculator built using HTML, CSS (TailwindCSS)
 
 ## Demo
 
-You can try the calculator live [here](https://your-live-demo-link.com).
+You can try the calculator live [here](https://yash143220.github.io/Simple-Calc-TailwindCSS/).
 
 ## Installation
 
