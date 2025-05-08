@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex items-center justify-center min-h-screen bg-gray-100">
+    <div class="bg-slate-700 p-6 rounded-xl shadow-lg w-72">
+        <h1 class="text-xl font-bold mb-4 text-center text-white">Calculator</h1>
+
+        <div class="h-20 w-full shadow-lg bg-gray-300 flex items-center rounded-xl justify-end px-4" id="display">
+            <h1 class="text-3xl" id="result">0</h1>
+        </div>
+        <br>
+
+        <div class="grid grid-cols-4 grid-rows-5 gap-4">
+            <button id="clear" class="h-10 bg-orange-600 rounded-md text-2xl text-white">C</button>
+            <button id="all-clear" class="h-10 bg-orange-600 rounded-md text-2xl text-white">AC</button>
+            <button data-value="%" class="h-10 bg-blue-400 rounded-md text-2xl">%</button>
+            <button data-value="*" class="h-10 bg-blue-400 rounded-md text-2xl">X</button>
+
+            <button data-value="7" class="h-10 bg-blue-400 rounded-md text-2xl">7</button>
+            <button data-value="8" class="h-10 bg-blue-400 rounded-md text-2xl">8</button>
+            <button data-value="9" class="h-10 bg-blue-400 rounded-md text-2xl">9</button>
+            <button data-value="/" class="h-10 bg-blue-400 rounded-md text-2xl">/</button>
+
+            <button data-value="4" class="h-10 bg-blue-400 rounded-md text-2xl">4</button>
+            <button data-value="5" class="h-10 bg-blue-400 rounded-md text-2xl">5</button>
+            <button data-value="6" class="h-10 bg-blue-400 rounded-md text-2xl">6</button>
+            <button data-value="-" class="h-10 bg-blue-400 rounded-md text-2xl">-</button>
+
+            <button data-value="1" class="h-10 bg-blue-400 rounded-md text-2xl">1</button>
+            <button data-value="2" class="h-10 bg-blue-400 rounded-md text-2xl">2</button>
+            <button data-value="3" class="h-10 bg-blue-400 rounded-md text-2xl">3</button>
+            <button data-value="+" class="row-span-2 bg-blue-400 rounded-md text-2xl flex items-center justify-center">+</button>
+
+            <button data-value="." class="h-10 bg-blue-400 rounded-md text-2xl">.</button>
+            <button data-value="0" class="h-10 bg-blue-400 rounded-md text-2xl">0</button>
+            <button id="equals" class="h-10 bg-blue-400 rounded-md text-2xl">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -2,7 +2,7 @@
 
 A simple and responsive web-based calculator built using HTML, CSS (TailwindCSS), and JavaScript. This calculator supports basic arithmetic operations and has a clean, user-friendly interface.
 
-![Calculator Screenshot](screenshot.png)
+![Calculator Screenshot](image.png)
 
 ## Features
 
@@ -39,7 +39,7 @@ You can try the calculator live [here](https://your-live-demo-link.com).
 
 ## Screenshot
 
-![Calculator Screenshot](screenshot.png)
+![Calculator Screenshot](image.png)
 
 ## Technologies Used
 
